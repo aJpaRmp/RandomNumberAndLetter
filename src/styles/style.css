@@ -1,0 +1,35 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  align-items: center;
+  background-color: darkslategrey;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+}
+#number,
+#letter {
+  color: white;
+  font-size: 2rem;
+  margin: 0 1rem;
+  text-align: center;
+}
+#number #DisplayLetter,
+#letter #DisplayLetter,
+#number #DisplayNumber,
+#letter #DisplayNumber {
+  font-size: 3rem;
+}
+#number #RandomNumber,
+#letter #RandomNumber,
+#number #RandomLetter,
+#letter #RandomLetter {
+  font-size: 3rem;
+  background: rgba(161, 7, 7, 0.5);
+}

@@ -1,0 +1,28 @@
+@import "_reset.less";
+@import "_mixin.less";
+
+body {
+  align-items: center;
+  background-color: darkslategrey;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+}
+
+#number,
+#letter {
+  color: white;
+  font-size: 2rem;
+  margin: 0 1rem;
+  text-align: center;
+  #DisplayLetter,
+  #DisplayNumber {
+    font-size: 3rem;
+  }
+  #RandomNumber,
+  #RandomLetter {
+    font-size: 3rem;
+    background: rgba(161, 7, 7, 0.5);
+  }
+}
