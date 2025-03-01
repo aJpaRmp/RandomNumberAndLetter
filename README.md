@@ -1,3 +1,3 @@
 # RandomNumberAndLetter
 RandomNumberAndLetter
-https://ajparmp.github.io/RandomNumberAndLetter/
+https://michalpawlowski-mp.github.io/RandomNumberAndLetter/
